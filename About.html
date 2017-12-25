@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="20">
+    <div class="navbar-brand" href="#">Horizon</div>
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="Welcome.html">Home</a></li>
+        <li><a href="News.html">News</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="Category.html">Category <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Adventure.html">Adventure</a></li>
+            <li><a href="Racing.html">Racing</a></li>
+            <li><a href="RPG.html">RPG</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!--Content-->
+  <div class="container col-lg-12" style="background: url(img/Welcome-content.png);">
+    <div class="jumbotron">
+
+<!--Mission, Vission, Goal-->
+      <div id="row" style="margin-top: 2em;">
+        <div class="col-sm-4">
+          <p><img class="img-circle" src="img/mission.png"></p>
+          <h2>Mission</h2>
+          <p>is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since 
+          the 1500s, when an unknown printer took a galley of type and scrambled 
+          it to make a type specimen book. It has survived not only five centuries, 
+          but also the leap into electronic typesetting, remaining essentially 
+          unchanged</p>
+        </div>
+        <div class="col-sm-4">
+          <p><img class="img-circle" src="img/vision-icon.png"></p>
+          <h2>Vision</h2>
+          <p>is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since 
+          the 1500s, when an unknown printer took a galley of type and scrambled 
+          it to make a type specimen book. It has survived not only five centuries, 
+          but also the leap into electronic typesetting, remaining essentially 
+          unchanged</p>
+        </div>
+        <div class="col-sm-4">
+          <p><img class="img-circle" src="img/goal-icon.png"></p>
+          <h2>Goal</h2>
+          <p>is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since 
+          the 1500s, when an unknown printer took a galley of type and scrambled 
+          it to make a type specimen book. It has survived not only five centuries, 
+          but also the leap into electronic typesetting, remaining essentially 
+          unchanged</p>
+        </div>
+      </div>
+
+    <!--Photo-->
+      <img style="width: 100%; height: 45em; margin-bottom: 2em;" src="img/About.jpg">
+    </div>  
+  </div>
+
+  <!--Footer-->
+  <div id="welcome-footer">
+    <div class="row"> 
+      <div class="col-sm-6" style="background-color: black; display: block; margin: auto; height: 10em; padding: 2% 5%;">
+        <div class="footer-symbol">
+          <a href="http://www.facebook.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Facebook-symbol.png"></a>
+          <a href="http://www.twitter.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Twitter-symbol.png"></a>
+          <a href="http://www.instagram.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Instagram-symbol.png"></a>
+          <a href="http://www.pinterest.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Pinterest-symbol.png"></a>
+        </div>  
+      </div>
+      <div class="col-sm-6" style="background-color: black; display: block;margin: auto; height: 10em; padding: 1.7em 2em;">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+      <p>Subcribe to the lastest news and events</p>
+      </div>
+    </div>
+  </div> 
+</body>

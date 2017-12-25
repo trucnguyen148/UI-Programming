@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="20">
+    <div class="navbar-brand" href="#">Horizon</div>
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="Welcome.html">Home</a></li>
+        <li><a href="News.html">News</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="Category.html">Category <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Adventure.html">Adventure</a></li>
+            <li><a href="Racing.html">Racing</a></li>
+            <li><a href="RPG.html">RPG</a></li>
+          </ul>
+        </li>
+        <li><a href="About.html">About</a></li>
+        <li class="active"><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Content-->
+  <div class="container col-lg-12" style="background: url(img/Welcome-content.png);">
+    <div class="jumbotron">
+	  <!--Photo-->
+	    <div id="hello">
+	      <img src="img/Contact-Hello-mailbox.png" style="width: 100%; display: block; margin: auto; padding: 2em 0em;">
+	    </div>
+
+	   <!--Contact 01--> 
+	    <div id="contact-01">
+	      <h2>01/ get in touch</h2>
+	      <p style="text-align: center;">We’re very approachable and would love to speak to you. Feel free 
+	      to call, send us an email or simply complete enquiry form</p>
+	      <p><img id="contact-symbol" src="img/Contact-01-Phone-symbol.png"> 
+	      +358 44 9214167</p>
+	      <p><img id="contact-symbol" src="img/Contact-01-Email.png"> n6ngtr00@students.oamk.fi</p>
+	    </div>
+
+	   <!--Contact 02-->
+	     <div id="contact-02">
+	      <h2>02/ send us a message </h2>
+          <form name="contact_form" class="form-horizontal" role="form" method="post">
+            <!--This is a place for name-->
+            <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name (*)</label>
+              <input type="text" class="form-control is-invalid" id="name" placeholder="Your name" name="name" required="name.length>0">
+            </div>
+                     
+
+             <!--This is a place for email-->
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email (*)</label>
+              <input type="email" class="form-control" id="email" placeholder="Email address" name="email" required="email.length > 0">
+            </div>
+           
+
+             <!--This is a place for phone number-->
+            <div class="form-group">
+              <label for="phone" class="col-sm-2 control-label">Phone number </label>
+              <input type="phone" class="form-control" id="phone" placeholder="Telephone number " name="phone">
+            </div>
+
+             <!--This is a place for Message-->
+              <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message (*)</label>
+                  <textarea class="form-control" rows="4" placeholder="Write your message" name="message" required></textarea>
+              </div>
+              
+
+             <!--This is a place for Send button-->
+              <div class="form-group">
+                <div class="col-sm-2 col-sm-offset-2">
+                  <button onclick="myFunction()" type="submit" class="btn btn-default">Submit</button>
+                </div>
+              </div>
+          </form>
+	      </div>
+  		</div>
+	</div>
+  <!--Footer-->
+  <div id="welcome-footer">
+    <div class="row"> 
+      <div class="col-sm-6" style="background-color: black; display: block; margin: auto; height: 10em; padding: 2% 5%;">
+        <div class="footer-symbol">
+          <a href="http://www.facebook.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Facebook-symbol.png"></a>
+          <a href="http://www.twitter.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Twitter-symbol.png"></a>
+          <a href="http://www.instagram.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Instagram-symbol.png"></a>
+          <a href="http://www.pinterest.com" target="_blank">
+          <img class="img-rounded" src="img/Footer-Pinterest-symbol.png"></a>
+        </div>  
+      </div>
+      <div class="col-sm-6" style="background-color: black; display: block;margin: auto; height: 10em; padding: 1.7em 2em;">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"> 
+        </div>
+      <p>Subcribe to the lastest news and events</p>
+      </div>
+    </div>
+  </div> 
+
+ <script>
+    function myFunction() {
+      valid = true;
+
+      if (document.contact_form.name.value == "") {
+        alert("Please fill in your name");
+       }
+
+      else if (document.contact_form.email.value == ""){
+        alert("Please fill in your email follow format is example@gmail.com")
+      }
+
+      else if (document.contact_form.message.value == "") {
+        alert("Please write your message")
+      }
+
+      else {
+        alert("Thank you for your message. We will reply you soon as soon possilble.\ Have a nice day!");
+      }
+
+      
+      return valid;
+  }
+
+
+
+</script> 
+</body>

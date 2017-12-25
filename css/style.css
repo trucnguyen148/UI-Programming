@@ -1,0 +1,321 @@
+body{
+	color: #e3d6cf;
+	max-width: 100%;
+	background-color: lightgrey;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+.container{
+    background-repeat: no-repeat;
+	background-position: top center;
+	border-radius: 0;
+	width: 100%;
+	margin: 1em 0em;
+	font-family: fantasy;
+
+}
+.navbar .navbar-brand{
+	font-family: 'Great Vibes', cursive;
+	font-size: 5em !important;
+	margin-left: 10%;
+}
+
+.nav li{
+	padding: 0em 2em;
+}
+.active{
+	padding: 0em 2em;
+}
+h1.text-uppercase{
+	padding-top: 1em;
+	font-family: Garamond;
+}
+.welcome-button{
+	margin: 3em 2em 5em 2em;
+
+}
+
+.col-lg-12{
+	margin: 5em 0em;
+}
+
+.btn
+{
+	width: 9em;
+	background-color: #f9ad81;
+	border-color:#f9ad81;
+	font-size: 100%;
+	margin-bottom: 1em;
+	color: black;
+	margin-left: 1.9em;
+}
+
+.jumbotron{
+	background-color: inherit;
+
+}
+
+.jumbotron h1{
+	text-align: center;
+}
+
+
+.row{
+	margin-top: 1em;
+	display: block;
+	margin: auto;
+}
+
+.welcome-footer-symbol img{
+	width: 20%;
+	padding-left: 0.5em;
+}
+
+.col-lg-6{
+	background-color: black;
+	display: block;
+    margin: auto;
+    height: 25em;
+}
+.col-lg-6 h2{
+	text-transform: uppercase;
+	margin-bottom: 1.5em
+}
+
+
+
+.welcome-footer-symbol{
+	margin: 20% 25%;
+}
+
+.col-sm-4{
+	text-align: center;
+	background-color: black;
+	padding: 3em 0.5em;
+}
+
+.col-sm-4 h2{
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.col-sm-4:hover{
+	background-color: red;
+}
+
+.img-circle{
+	width: 60%;
+}
+
+.container-fluid{
+	float: right;
+}
+
+
+.well{
+	width: 70%;
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding-bottom: 2em;
+	border-color: #f9ad81;
+
+}
+
+p.well-sm{
+	text-align: center;
+	width: 40%;
+	background-color: #f9ad81;
+	font-size: 100%;
+	color: black;
+	text-transform: uppercase;
+	margin-top: -2.4em;
+	margin-bottom: 3em;
+	padding: 0.5em;
+}
+
+#news-time{
+	text-align: center;
+	font-size: 3.5em;
+
+}
+
+
+
+/*This is part for news */
+.footer-symbol{
+	margin-left: 20%;
+}
+.footer-symbol img{
+	width: 20%;
+	padding-left: 0.5em;
+}
+
+.col-sm-6 h2{
+	text-transform: uppercase;
+	margin-bottom: 1.5em
+}
+
+.form-control{
+	width: 60%;
+	margin-left: 20%;
+}
+
+.btn-default{
+	margin-left: 20%;
+}
+
+.star {
+	text-align: center;
+	font-size: 1.2em;
+	margin: 2em 0em;
+
+}
+.checked {
+	color: orange;
+}
+
+
+
+#countdown p{
+	text-align: center;
+	text-transform: uppercase;
+	color: #e3d6cf;  
+	font-size: 2.5em;
+	padding-bottom: 0
+}
+
+#countdown h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #e3d6cf;  
+	font-size: 3em;
+	padding-bottom: 2em;
+}
+
+hours{
+	background-color: red;
+}
+
+#footer-symbol img{
+	width: 20%;
+}
+
+/*This part for category*/
+.background{
+	width: 60%;
+	display: block;
+	margin: auto;
+
+}
+
+.background h1{
+	padding-top: 1em;
+}
+
+.background a{
+	margin-bottom: 2em;
+}
+
+.game h1{
+	color: white;
+    font-size: 25px;
+    margin: 8em 0em 0em 0em;
+}
+
+.game{
+	margin: 0em 0.15em;
+}
+
+.col-lg-3 {
+	width: 32.9%;
+	height: 40em;
+}
+
+.col-lg-4 img, 
+.col-lg-5 img, 
+.col-lg-7 img, 
+.col-md-3 img,
+.col-lg-8 img,
+.col-lg-9 img,
+.col-md-6 img{
+	width: 100%;
+	padding-bottom: 2em;
+}
+
+
+.btn-info:hover{
+	background-color: #f9ad81;
+ 	border-color: #f9ad81;
+}
+
+.btn-info,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active
+{
+	width: 9em;
+	background-color: #2b2626;
+	border-color: #2b2626;
+	font-size: 100%;
+	color: white;
+}
+
+/*This part for contact*/
+#contact-content{
+	background-image: url('Image/Footer-Background.png')
+}
+#contact-symbol{
+	width: 5%;
+	margin-left: 20%;
+}
+
+#contact-01, #contact-02{
+	margin-bottom: 4em;
+}
+
+#contact-01 h2, 
+#contact-02 h2{
+	text-transform: uppercase;
+}
+
+
+.col-sm-2,
+#contact-01 p{
+}
+	
+@media only screen 
+ and (min-width: 150px) 
+ and (max-width: 1000px){
+	
+	.col-lg-6{
+	height: 100%;
+	padding: 1em 30%;
+	}
+
+	.col-lg-6 h2{
+		text-align: center;
+	}
+
+	.img-rounded{
+	width: 23%;
+	padding-left: 0;
+
+	}
+
+	.footer-symbol{
+	margin: 0;
+	}
+	#countdown{
+	margin-top: 0;
+	}
+	.col-lg-3 {
+	width: 100%;
+	
+	}
+
+ }
